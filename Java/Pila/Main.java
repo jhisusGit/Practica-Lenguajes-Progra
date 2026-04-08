@@ -14,7 +14,6 @@ public class Main {
         System.out.println("Despues del pop");
         p.MostrarPila();
 
-        //Necesito hacer la prueba de esto
 
         System.out.println("Validando la cadena ({[]})");
         Str.Validar("({[]})");
