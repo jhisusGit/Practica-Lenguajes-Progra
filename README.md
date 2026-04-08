@@ -5,4 +5,18 @@ Mi primer repositorio de git en el cual iniciare a practicar distintos lenguajes
 ya que tecnicamente viviremos de esto y no es que no me guste la programacion no me gusta cuando toca programar y me siento un asno
 por eso creamos este repo para practicar y ya no ser uno mas del monton que usa IA para programar
 
+# 1. Asegurate de estar en tu branch (no en main)
+git checkout -b mi-nueva-rama
 
+# 2. Hacé tus cambios y commiteá
+git add .
+git commit -m "Mi descripción de cambios"
+
+# 3. Subí tu rama a GitHub
+git push origin mi-nueva-rama
+
+# 4. Creá el pull request
+gh pr create \
+  --repo jhisusGit/Practica-Lenguajes-Progra \
+  --title "Título de mi PR" \
+  --body "Descripción de lo que hice"
